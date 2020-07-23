@@ -1,0 +1,26 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Variables
+@import "variables";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap';
+
+[v-cloak] {
+    display: none;
+}
+
+.navbar-brand {
+    img {
+        width: 5rem;
+    }
+}
+
+#embedMap {
+    height: 25rem;
+    width: 50rem;
+}
+
+#shopsList {
+    width: 100%;
+}
